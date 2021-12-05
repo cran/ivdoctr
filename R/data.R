@@ -92,18 +92,18 @@ if ("colonial.rda" %in% list.files("./data")) {
 #'    \item{school1517}{Dummy variable, =1 if school in 1517}
 #'    \item{dnpop1500}{City population in 1500}
 #'  }
-#' @source \url{https://www.cesifo-group.de/ifoHome/facts/iPEHD-Ifo-Prussian-Economic-History-Database/publications.html}
-#' @references \url{https://www.cesifo-group.de/ifoHome/facts/iPEHD-Ifo-Prussian-Economic-History-Database.html}
-#' \url{http://qje.oxfordjournals.org/content/124/2/531.short}
+#' @source \url{https://www.ifo.de/en/iPEHD}
+#' @references \url{https://www.ifo.de/en/iPEHD}
+#' \doi{10.1162/qjec.2009.124.2.531}
 "weber"
 
 if ("weber.rda" %in% list.files("./data")) {
 } else {
   print(paste0("Please download data from ",
-               "https://www.cesifo-group.de/dms/ifodoc/iPEHD/Datasets/ipehd_qje2009_data_tables.zip",
+               "https://drive.google.com/file/d/11qe3NboWM03u0nXXLWWg_ctB9FYjh9eg/view",
                "and file an issue at https://github.com/fditraglia/ivdoctr/issues",
                "so that we can fix this problem"))
-  # download.file("https://www.cesifo-group.de/dms/ifodoc/iPEHD/Datasets/ipehd_qje2009_data_tables.zip",
+  # download.file("https://drive.google.com/file/d/11qe3NboWM03u0nXXLWWg_ctB9FYjh9eg/view",
   #               "./data/weber.zip")
   # unzip("./data/weber.zip", files = "ipehd_qje2009_master.dta", exdir = "./data")
   # weber <- setDT(haven::read_dta("./data/ipehd_qje2009_master.dta"))
@@ -139,7 +139,7 @@ if ("weber.rda" %in% list.files("./data")) {
 #'    \item{distschool}{Distance to nearest non-community based school}
 #' }
 #' @source Provided by author.
-#' @references \url{http://www.jstor.org/stable/3083335}
+#' @references \url{https://www.jstor.org/stable/3083335}
 "afghan"
 
 if ("afghan.rda" %in% list.files("./data")) {

@@ -56,7 +56,7 @@ A data frame with 452 rows and 44 variables:
  }
 }
 \source{
-\url{https://www.cesifo-group.de/ifoHome/facts/iPEHD-Ifo-Prussian-Economic-History-Database/publications.html}
+\url{https://www.ifo.de/en/iPEHD}
 }
 \usage{
 weber
@@ -65,7 +65,7 @@ weber
 Data on Prussian counties in 1871 from Becker and Woessmann's (2009) paper "Was Weber Wrong? A Human Capital Theory of Protestant Economic History."
 }
 \references{
-\url{https://www.cesifo-group.de/ifoHome/facts/iPEHD-Ifo-Prussian-Economic-History-Database.html}
-\url{http://qje.oxfordjournals.org/content/124/2/531.short}
+\url{https://www.ifo.de/en/iPEHD}
+\doi{10.1162/qjec.2009.124.2.531}
 }
 \keyword{datasets}

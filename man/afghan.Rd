@@ -36,6 +36,6 @@ afghan
 Replicates IV using controls from Table 2
 }
 \references{
-\url{http://www.jstor.org/stable/3083335}
+\url{https://www.jstor.org/stable/3083335}
 }
 \keyword{datasets}
